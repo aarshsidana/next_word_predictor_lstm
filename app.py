@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the model and tokenizer
-model = load_model('lstm_rnn_model.h5')
+model = load_model('lstm_rnn_model.h5', compile=False)
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
