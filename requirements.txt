@@ -1,0 +1,20 @@
+tensorflow-macos
+keras==3.12.1
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+
+# Visualization
+matplotlib==3.10.8
+
+# Web Framework
+streamlit==1.56.0
+
+# Monitoring
+tensorboard==2.16.2
+
+# NLP & Utilities
+nltk==3.9.2
+tqdm==4.67.3
+wrapt==2.1.2
